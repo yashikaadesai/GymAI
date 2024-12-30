@@ -93,4 +93,4 @@ for _ in range(1000):
     action, _ = model.predict(obs, deterministic=True)
     obs, reward, done, _, _ = test_env.step(action)
     if done:
-        obs, _ = test_env.reset()c
+        obs, _ = test_env.reset() 
